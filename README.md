@@ -22,7 +22,7 @@ The dataset is quite large (16GB), so a subset of it will be utilized for the pr
 
 # Build Classificaiton Models:
 
-After the data is processed we going to utilize 3 machine learning models to find the optimal results:
+After the data is processed we going to utilize 3 machine learning models to find the optimal results with the  hyperparameter tuning using the `RandomSearchCV` and `GridSearchCV`:
 
 - Decision Tree Classifier
 - Support Vector Machine (SVC)
