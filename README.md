@@ -37,23 +37,39 @@ After the data is processed we going to utilize 3 machine learning models to fin
 - NumPy
 - Matplotlib
 
-# Installation:
 
-- Clone this repository by running:
- ```
-git clone https://githut](https://github.com/stefanshipinkoski/water_quality_classificaiton.git
+1. Clone this repository by running:
+ ```bash
+git clonehttps://github.com/stefanshipinkoski/water_quality_classificaiton.git
+
 ```
 
-- Install the required dependencies using:
-```Python
-pip install -r requerments.txt
+2. Navigate to the project directory:
+```bash
+cd water_quality_classificaiton
+```
+
+3. Create a conda environment and install the required dependencies:
+
+```bash
+conda env create -f enviorment.yml
+```
+
+4. Activate the conda environment:
+
+```bash
+conda activate water-quality-env
 ```
 
 
-# Usage: 
 
-- Run the `data_preprocessing.ipynb` notebook to clean and preprocess the dataset.
-- Run the `water_quality_classification.ipynb` notebook to classify the quality of water resources in Europe.
+
+
+## Usage
+
+1. Launch a Jupyter Notebook session within the conda environment: 
+2. Run the `data_preprocessing.ipynb` notebook to clean and preprocess the dataset.
+3. Run the `water_quality_classification.ipynb` notebook to classify the quality of water resources in Europe.
 
 
 # Contributing:

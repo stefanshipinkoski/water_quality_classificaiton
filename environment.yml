@@ -1,0 +1,8 @@
+name: water-quality-env
+channels:
+  - defaults
+dependencies:
+  - scikit-learn
+  - pandas
+  - numpy
+  - matplotlib
