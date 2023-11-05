@@ -2,6 +2,7 @@ name: water-quality-env
 channels:
   - defaults
 dependencies:
+  - python=3.10
   - scikit-learn
   - pandas
   - numpy
